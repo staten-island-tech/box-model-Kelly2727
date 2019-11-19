@@ -1,0 +1,27 @@
+body{
+    padding: 10;
+    margin: 10;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    background-color: cyan;
+    position: relative;
+}
+
+.header-text{ 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    color: cyan;
+    transform: translate (-50%, -50%);
+}
+
+.test1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index; 10000;
+}
