@@ -1,4 +1,7 @@
-body{
+body{ background-image: linear-gradient(
+    rgba(164, 241, 225, 0.726)
+
+)
     padding: 10;
     margin: 10;
     box-sizing: border-box;
@@ -7,15 +10,16 @@ body{
 .header {
     height: 100vh;
     background-color: cyan;
-    position: relative;
+    position: center;
 }
 
 .header-text{ 
     position: absolute;
     top: 50%;
     left: 50%; 
-    color: cyan;
+    color: ;
     transform: translate (-50%, -50%);
+    height: 30vh;
 }
 
 .test1{
@@ -23,5 +27,6 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index; 10000;
+    z-index: 10;
+    
 }
