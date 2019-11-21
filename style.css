@@ -2,33 +2,38 @@ html{
     font-size: 62.5%;
     padding: 0;
     margin: 0;
-    box-sizing: borderbox;
+    box-sizing: borderbox;}
 
 
-.header {
-    height: 100vh;
-    background-color: linear-gradient(
-        rgba(164, 241, 225, 0.726);
+.header{
+    background-color: #a4f1e1b9;
     position: relative;
-
-
-.header-text{ 
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    color: navy;
-    transform: translate (-50%, -50%);
-    height: 30vh;
+    height:100rem;
     
 }
 
-.test1{
+.header-text{ 
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.27rem;
+    font-size: 4rem;
+    font-family: 'Solway', serif;
+    text-align: center;
+    color: rgb(15, 13, 143);
+   
+}
+
+.pic{
+    width: 80rem;
+    opacity:85%;
     position: absolute;
     top: 50%;
     left: 50%;
-    text-transform: uppercase;
     transform: translate(-50%, -50%);
-    z-index: 10;
-    font-family: 'Solway', serif;
+    z-index: -10;
 }
+
 
